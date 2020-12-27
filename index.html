@@ -4,12 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
+    <!-- <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
       rel="stylesheet"
-    />
+    /> -->
     <link rel="stylesheet" href="css/style.css" />
     <title>HTML, CSS, and SASS Template</title>
   </head>
-  <body></body>
+  <body>
+    <!-- You might not want a body container and instead just layout the page in sections -->
+    <div class="body-container">
+      <header>
+        <!-- Navbar -->
+        <div class="navbar">
+          <div class="container flex">
+            <h1 class="logo">Logo</h1>
+            <nav></nav>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <!-- Showcase -->
+        <section class="showcase">
+          <div class="container grid"></div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer bg-dark py-5">
+        <div class="container grid grid-3"></div>
+      </footer>
+    </div>
+  </body>
 </html>
